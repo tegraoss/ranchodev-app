@@ -8682,3 +8682,17 @@ body {
   font-family: -apple-system, "Helvetica Neue", "Roboto", sans-serif;
   font-size: 1.4rem;
   background-color: #fff; }
+
+.welcome {
+  text-align: center; }
+  .welcome h2 {
+    margin-top: 2.8rem; }
+  .welcome img {
+    max-height: 70%;
+    max-width: 70%;
+    margin: 36px 0; }
+  .welcome p {
+    padding: 0 40px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #60646B; }
