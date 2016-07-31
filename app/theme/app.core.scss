@@ -1,3 +1,14 @@
 @import "../pages/about/about";
 @import "../pages/menu/menu";
+@import "../pages/schedule/schedule";
 @import "../pages/welcome/welcome";
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../../fonts/Montserrat-Regular.ttf');
+}
