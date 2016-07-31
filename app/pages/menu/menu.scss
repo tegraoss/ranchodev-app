@@ -2,7 +2,6 @@
 
 }
 
-
 #sideMenuHeader {
 
     .toolbar-background {
@@ -11,13 +10,37 @@
 
     .toolbar-title {
         color: #fafafa;
+        font-family: Montserrat-Regular;
     }
-    
+
 }
 
 .outer-content {
     
     ion-label {
          color: #db3a3a;
+         font-family: Montserrat-Regular;
+
      }
+     
 }
+
+
+.nav-bar {
+
+        .bar-button-default {
+            color: #fafafa;
+        }
+        
+        .toolbar-background {
+            background: #e27074;
+        }
+        
+        .toolbar-title {
+            color: #fafafa;
+            font-family: Montserrat-Regular;
+        }
+}
+
+
+
