@@ -14,8 +14,8 @@
     <button ion-item *ngFor="let s of schedule">
       <h3>{{s.title}}</h3>
       <div>
-        <span>8:00 -</span>
-        <span>9:00</span>
+        <span>{{s.firstHour}} -</span>
+        <span>{{s.lastHour}}</span>
       </div>
     </button>
   </ion-item-sliding>
