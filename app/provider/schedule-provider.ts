@@ -21,7 +21,7 @@ export class ScheduleProvider {
         '{ "title":"Coffee Break" , "lastHour":"16:30", "firstHour":"16:00" },' +
         '{ "title":"Desenvolvimento Mobile: Híbrido vs Nativo" , "lastHour":"15:10", "firstHour":"16:30" },' +
         '{ "title":" A nuvem: Sem raios nem trovões" , "lastHour":"18:00", "firstHour":"17:20" },' +
-        '{ "title":"Encerramento / Networking" , "lastHour":"", "firstHour":"18:00" }]}';
+        '{ "title":"Encerramento / Networking" , "lastHour":"19:00", "firstHour":"18:00" }]}';
 
          this.Obj = JSON.parse(objJson);
 
