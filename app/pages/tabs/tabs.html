@@ -1,12 +1,5 @@
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>tabs</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-
-</ion-content>
+<ion-tabs class="tabs">
+  <ion-tab #scheduleTab [root]="tab1Root" tabTitle="Programação" tabIcon="calendar"></ion-tab>
+  <ion-tab #aboutTab [root]="tab2Root" tabTitle="Sobre" tabIcon="information-circle"></ion-tab>
+  <ion-tab #mapTab [root]="tab3Root" tabTitle="Mapa" tabIcon="map"></ion-tab>
+</ion-tabs>
