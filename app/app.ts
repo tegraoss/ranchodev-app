@@ -5,7 +5,9 @@ import {MenuPage} from './pages/menu/menu';
 import {AboutPage} from './pages/about/about';
 import {MapPage} from './pages/map/map';
 import {SchedulePage} from './pages/schedule/schedule';
+import {ScheduleProvider} from './provider/schedule-provider'
 import {WelcomePage} from './pages/welcome/welcome';
+import {TabsPage} from './pages/tabs/tabs'; 
 
 
 @Component({
@@ -18,6 +20,7 @@ export class MyApp {
   private map: any;
   private schedule: any;
   private welcome: any;
+  private tabs: any;
 
   constructor(private platform: Platform) {
 
@@ -25,6 +28,7 @@ export class MyApp {
     this.map = MapPage;
     this.schedule = SchedulePage;
     this.welcome = WelcomePage;
+    this.tabs = TabsPage;
 
     this.rootPage = this.welcome;
 
@@ -34,8 +38,8 @@ export class MyApp {
   }
 
   openPage(option) {
-    this.rootPage = option;
+    this.rootPage = this.tabs;
   }
 }
 
-ionicBootstrap(MyApp);
+ionicBootstrap(MyApp, [ScheduleProvider]);
