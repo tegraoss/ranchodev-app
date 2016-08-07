@@ -11,33 +11,13 @@
 
 <ion-content class="schedule">
   <ion-item-sliding>
-    <button ion-item>
-      <h3>Credenciamento e Welcome Coffee</h3>
-      <p>
-        8:00 - 9:00
-      </p>
+    <button ion-item *ngFor="let s of schedule">
+      <h3>{{s.title}}</h3>
+      <div>
+        <span>8:00 -</span>
+        <span>9:00</span>
+      </div>
     </button>
   </ion-item-sliding>
-  <ion-item-sliding>
-    <button ion-item>
-      <h3>Boas-vindas</h3>
-      <p>
-        9:00 - 9:30
-      </p>
-    </button>
-  </ion-item-sliding>
-  <ion-item-sliding>
-    <button ion-item>
-      <h3>Cloud open source utilizando OpenStack</h3>
-      <p>
-        9:40 - 10:20
-      </p>
-    </button>
-    <button ion-item>
-      <h3> Liderança técnica efetiva</h3>
-      <p>
-        10:30 - 11:10
-      </p>
-    </button>
-  </ion-item-sliding>  
 </ion-content>
+
